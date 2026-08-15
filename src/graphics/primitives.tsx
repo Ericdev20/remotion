@@ -1,7 +1,7 @@
 import { AbsoluteFill } from "remotion";
+import { fontFamily } from "../font";
 
-export const FONT_STACK =
-  "'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif";
+export const FONT_STACK = fontFamily;
 export const ACCENT = "#39E508";
 
 /** Dark gradient behind the upper part of the frame so graphics stay legible over any footage. */

@@ -10,6 +10,35 @@ import {
 } from "remotion";
 import type { Caption, TikTokPage } from "@remotion/captions";
 import { createTikTokStyleCaptions } from "@remotion/captions";
+import { fontFamily } from "../font";
+
+type Word = { text: string; fromMs: number; toMs: number };
+
+/**
+ * Whisper often splits multi-syllable words into several sub-word tokens
+ * (e.g. "budgétaire" -> "bud" + "g" + "éta" + "ire"), each with its own
+ * timestamp. @remotion/captions keeps them as separate tokens within a page,
+ * so we re-glue any token that doesn't start with a space onto the previous
+ * one — otherwise they'd render as separate, independently-highlighted
+ * "words" with a visible gap between them.
+ */
+const groupIntoWords = (tokens: TikTokPage["tokens"]): Word[] => {
+  const words: Word[] = [];
+  for (const token of tokens) {
+    if (words.length === 0 || token.text.startsWith(" ")) {
+      words.push({
+        text: token.text.trimStart(),
+        fromMs: token.fromMs,
+        toMs: token.toMs,
+      });
+    } else {
+      const last = words[words.length - 1];
+      last.text += token.text;
+      last.toMs = token.toMs;
+    }
+  }
+  return words;
+};
 
 // How often the caption "page" switches, in ms.
 // Kept low so captions read word-by-word, social-media style.
@@ -98,6 +127,8 @@ const CaptionPage: React.FC<{ page: TikTokPage }> = ({ page }) => {
   // Convert to absolute time by adding the page's start offset.
   const absoluteTimeMs = page.startMs + currentTimeMs;
 
+  const words = groupIntoWords(page.tokens);
+
   return (
     <AbsoluteFill
       style={{
@@ -112,16 +143,16 @@ const CaptionPage: React.FC<{ page: TikTokPage }> = ({ page }) => {
           flexWrap: "wrap",
           justifyContent: "center",
           maxWidth: "85%",
-          gap: "0 14px",
+          gap: "10px 26px",
         }}
       >
-        {page.tokens.map((token) => {
+        {words.map((word) => {
           const isActive =
-            token.fromMs <= absoluteTimeMs && token.toMs > absoluteTimeMs;
-          const hasPlayed = token.toMs <= absoluteTimeMs;
+            word.fromMs <= absoluteTimeMs && word.toMs > absoluteTimeMs;
+          const hasPlayed = word.toMs <= absoluteTimeMs;
 
           // Frame at which this word started being spoken, relative to this Sequence.
-          const wordStartFrame = ((token.fromMs - page.startMs) / 1000) * fps;
+          const wordStartFrame = ((word.fromMs - page.startMs) / 1000) * fps;
           const framesSinceWordStart = frame - wordStartFrame;
 
           const pop = spring({
@@ -134,14 +165,13 @@ const CaptionPage: React.FC<{ page: TikTokPage }> = ({ page }) => {
             },
             durationInFrames: 10,
           });
-          const scale = isActive ? 1 + pop * 0.18 : 1;
+          const scale = isActive ? 1 + pop * 0.1 : 1;
 
           return (
             <span
-              key={token.fromMs}
+              key={word.fromMs}
               style={{
-                fontFamily:
-                  "'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                fontFamily,
                 fontSize: 68,
                 fontWeight: 900,
                 textTransform: "uppercase",
@@ -154,7 +184,7 @@ const CaptionPage: React.FC<{ page: TikTokPage }> = ({ page }) => {
                 transform: `scale(${scale})`,
               }}
             >
-              {token.text}
+              {word.text}
             </span>
           );
         })}
