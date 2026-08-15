@@ -1,0 +1,142 @@
+[
+  {
+    "text": "Ça",
+    "startMs": 310,
+    "endMs": 360,
+    "timestampMs": 540,
+    "confidence": 0.549893
+  },
+  {
+    "text": " ne",
+    "startMs": 360,
+    "endMs": 510,
+    "timestampMs": 820,
+    "confidence": 0.986444
+  },
+  {
+    "text": " coû",
+    "startMs": 510,
+    "endMs": 970,
+    "timestampMs": 1020,
+    "confidence": 0.931417
+  },
+  {
+    "text": "te",
+    "startMs": 970,
+    "endMs": 1140,
+    "timestampMs": 1100,
+    "confidence": 0.999744
+  },
+  {
+    "text": " que",
+    "startMs": 1140,
+    "endMs": 1500,
+    "timestampMs": 1560,
+    "confidence": 0.997065
+  },
+  {
+    "text": " 4",
+    "startMs": 1500,
+    "endMs": 1800,
+    "timestampMs": 1980,
+    "confidence": 0.546948
+  },
+  {
+    "text": " 9",
+    "startMs": 1800,
+    "endMs": 2050,
+    "timestampMs": 2520,
+    "confidence": 0.894021
+  },
+  {
+    "text": "50",
+    "startMs": 2050,
+    "endMs": 2660,
+    "timestampMs": 3040,
+    "confidence": 0.997314
+  },
+  {
+    "text": " franc",
+    "startMs": 2660,
+    "endMs": 3190,
+    "timestampMs": 3400,
+    "confidence": 0.905354
+  },
+  {
+    "text": "s",
+    "startMs": 3190,
+    "endMs": 3280,
+    "timestampMs": 3460,
+    "confidence": 0.99983
+  },
+  {
+    "text": " C",
+    "startMs": 3280,
+    "endMs": 3380,
+    "timestampMs": 3640,
+    "confidence": 0.860003
+  },
+  {
+    "text": "FA",
+    "startMs": 3380,
+    "endMs": 3620,
+    "timestampMs": 4040,
+    "confidence": 0.995159
+  },
+  {
+    "text": ".",
+    "startMs": 3620,
+    "endMs": 3940,
+    "timestampMs": 4440,
+    "confidence": 0.735398
+  },
+  {
+    "text": " Cl",
+    "startMs": 3940,
+    "endMs": 4360,
+    "timestampMs": 4540,
+    "confidence": 0.993432
+  },
+  {
+    "text": "ique",
+    "startMs": 4360,
+    "endMs": 4520,
+    "timestampMs": 4600,
+    "confidence": 0.985047
+  },
+  {
+    "text": " sur",
+    "startMs": 4520,
+    "endMs": 4790,
+    "timestampMs": 4760,
+    "confidence": 0.92108
+  },
+  {
+    "text": " en",
+    "startMs": 4790,
+    "endMs": 4970,
+    "timestampMs": 4900,
+    "confidence": 0.520752
+  },
+  {
+    "text": " savoir",
+    "startMs": 4970,
+    "endMs": 5580,
+    "timestampMs": 5080,
+    "confidence": 0.997836
+  },
+  {
+    "text": " plus",
+    "startMs": 5580,
+    "endMs": 5870,
+    "timestampMs": 5560,
+    "confidence": 0.995908
+  },
+  {
+    "text": ".",
+    "startMs": 5870,
+    "endMs": 5940,
+    "timestampMs": 5840,
+    "confidence": 0.690354
+  }
+]

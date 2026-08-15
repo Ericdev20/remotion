@@ -1,0 +1,338 @@
+[
+  {
+    "text": "Ce",
+    "startMs": 290,
+    "endMs": 330,
+    "timestampMs": 580,
+    "confidence": 0.666961
+  },
+  {
+    "text": " mot",
+    "startMs": 330,
+    "endMs": 820,
+    "timestampMs": 1080,
+    "confidence": 0.997984
+  },
+  {
+    "text": ",",
+    "startMs": 820,
+    "endMs": 1140,
+    "timestampMs": 1760,
+    "confidence": 0.503879
+  },
+  {
+    "text": " c",
+    "startMs": 1140,
+    "endMs": 1480,
+    "timestampMs": 1760,
+    "confidence": 0.980068
+  },
+  {
+    "text": "'",
+    "startMs": 1480,
+    "endMs": 1520,
+    "timestampMs": 1760,
+    "confidence": 0.999317
+  },
+  {
+    "text": "est",
+    "startMs": 1520,
+    "endMs": 2130,
+    "timestampMs": 2240,
+    "confidence": 0.999695
+  },
+  {
+    "text": " pré",
+    "startMs": 2130,
+    "endMs": 2660,
+    "timestampMs": 2740,
+    "confidence": 0.65093
+  },
+  {
+    "text": "vu",
+    "startMs": 2660,
+    "endMs": 3290,
+    "timestampMs": 3140,
+    "confidence": 0.991147
+  },
+  {
+    "text": ",",
+    "startMs": 3290,
+    "endMs": 3730,
+    "timestampMs": 3760,
+    "confidence": 0.372113
+  },
+  {
+    "text": " pas",
+    "startMs": 3730,
+    "endMs": 3780,
+    "timestampMs": 4140,
+    "confidence": 0.82812
+  },
+  {
+    "text": " \"",
+    "startMs": 3780,
+    "endMs": 3870,
+    "timestampMs": 4620,
+    "confidence": 0.399675
+  },
+  {
+    "text": "il",
+    "startMs": 3870,
+    "endMs": 4420,
+    "timestampMs": 4640,
+    "confidence": 0.802593
+  },
+  {
+    "text": " me",
+    "startMs": 4420,
+    "endMs": 4450,
+    "timestampMs": 4960,
+    "confidence": 0.996907
+  },
+  {
+    "text": " reste",
+    "startMs": 4450,
+    "endMs": 5230,
+    "timestampMs": 5320,
+    "confidence": 0.994256
+  },
+  {
+    "text": "\".",
+    "startMs": 5230,
+    "endMs": 5820,
+    "timestampMs": 6060,
+    "confidence": 0.684525
+  },
+  {
+    "text": " To",
+    "startMs": 5820,
+    "endMs": 6130,
+    "timestampMs": 6300,
+    "confidence": 0.976435
+  },
+  {
+    "text": "i",
+    "startMs": 6130,
+    "endMs": 6260,
+    "timestampMs": 6380,
+    "confidence": 0.999691
+  },
+  {
+    "text": " tu",
+    "startMs": 6260,
+    "endMs": 6560,
+    "timestampMs": 6580,
+    "confidence": 0.632371
+  },
+  {
+    "text": " dis",
+    "startMs": 6560,
+    "endMs": 7010,
+    "timestampMs": 6820,
+    "confidence": 0.980698
+  },
+  {
+    "text": " \"",
+    "startMs": 7010,
+    "endMs": 7250,
+    "timestampMs": 7340,
+    "confidence": 0.67792
+  },
+  {
+    "text": "il",
+    "startMs": 7250,
+    "endMs": 7320,
+    "timestampMs": 7480,
+    "confidence": 0.820465
+  },
+  {
+    "text": " me",
+    "startMs": 7320,
+    "endMs": 7410,
+    "timestampMs": 7660,
+    "confidence": 0.998148
+  },
+  {
+    "text": " reste",
+    "startMs": 7410,
+    "endMs": 7810,
+    "timestampMs": 7900,
+    "confidence": 0.997113
+  },
+  {
+    "text": " combien",
+    "startMs": 7810,
+    "endMs": 8460,
+    "timestampMs": 8300,
+    "confidence": 0.996622
+  },
+  {
+    "text": "\"",
+    "startMs": 8460,
+    "endMs": 8570,
+    "timestampMs": 8560,
+    "confidence": 0.57546
+  },
+  {
+    "text": " à",
+    "startMs": 8570,
+    "endMs": 8660,
+    "timestampMs": 8760,
+    "confidence": 0.96256
+  },
+  {
+    "text": " la",
+    "startMs": 8660,
+    "endMs": 8890,
+    "timestampMs": 8920,
+    "confidence": 0.999011
+  },
+  {
+    "text": " fin",
+    "startMs": 8890,
+    "endMs": 9160,
+    "timestampMs": 9020,
+    "confidence": 0.999247
+  },
+  {
+    "text": " du",
+    "startMs": 9160,
+    "endMs": 9350,
+    "timestampMs": 9280,
+    "confidence": 0.994048
+  },
+  {
+    "text": " mois",
+    "startMs": 9350,
+    "endMs": 9790,
+    "timestampMs": 9520,
+    "confidence": 0.997944
+  },
+  {
+    "text": ".",
+    "startMs": 9790,
+    "endMs": 9820,
+    "timestampMs": 10180,
+    "confidence": 0.62291
+  },
+  {
+    "text": " Eu",
+    "startMs": 9820,
+    "endMs": 10190,
+    "timestampMs": 10440,
+    "confidence": 0.794716
+  },
+  {
+    "text": "x",
+    "startMs": 10190,
+    "endMs": 10200,
+    "timestampMs": 10440,
+    "confidence": 0.994911
+  },
+  {
+    "text": " disent",
+    "startMs": 10200,
+    "endMs": 10690,
+    "timestampMs": 10820,
+    "confidence": 0.981154
+  },
+  {
+    "text": " \"",
+    "startMs": 10690,
+    "endMs": 11090,
+    "timestampMs": 11520,
+    "confidence": 0.957819
+  },
+  {
+    "text": "j",
+    "startMs": 11090,
+    "endMs": 11340,
+    "timestampMs": 11700,
+    "confidence": 0.869931
+  },
+  {
+    "text": "'",
+    "startMs": 11340,
+    "endMs": 11400,
+    "timestampMs": 11700,
+    "confidence": 0.999512
+  },
+  {
+    "text": "ai",
+    "startMs": 11400,
+    "endMs": 11590,
+    "timestampMs": 12040,
+    "confidence": 0.998536
+  },
+  {
+    "text": " pré",
+    "startMs": 11590,
+    "endMs": 12110,
+    "timestampMs": 12380,
+    "confidence": 0.997896
+  },
+  {
+    "text": "vu",
+    "startMs": 12110,
+    "endMs": 12360,
+    "timestampMs": 12520,
+    "confidence": 0.992313
+  },
+  {
+    "text": " combien",
+    "startMs": 12360,
+    "endMs": 13250,
+    "timestampMs": 13120,
+    "confidence": 0.985071
+  },
+  {
+    "text": "\"",
+    "startMs": 13250,
+    "endMs": 13710,
+    "timestampMs": 13880,
+    "confidence": 0.687638
+  },
+  {
+    "text": " avant",
+    "startMs": 13710,
+    "endMs": 14020,
+    "timestampMs": 14160,
+    "confidence": 0.943038
+  },
+  {
+    "text": " même",
+    "startMs": 14020,
+    "endMs": 14460,
+    "timestampMs": 14560,
+    "confidence": 0.985968
+  },
+  {
+    "text": " de",
+    "startMs": 14460,
+    "endMs": 14660,
+    "timestampMs": 14800,
+    "confidence": 0.994108
+  },
+  {
+    "text": " dép",
+    "startMs": 14660,
+    "endMs": 15060,
+    "timestampMs": 15020,
+    "confidence": 0.727293
+  },
+  {
+    "text": "enser",
+    "startMs": 15060,
+    "endMs": 15620,
+    "timestampMs": 15340,
+    "confidence": 0.996594
+  },
+  {
+    "text": ".",
+    "startMs": 15620,
+    "endMs": 15620,
+    "timestampMs": 15560,
+    "confidence": 0.831695
+  }
+]
