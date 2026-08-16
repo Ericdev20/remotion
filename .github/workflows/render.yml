@@ -2,13 +2,18 @@ name: Render video
 
 on:
   workflow_dispatch:
+    inputs:
+      composition:
+        description: "Composition ID to render (see Remotion Studio's composition list)"
+        required: true
+        default: "MontageFinal"
   push:
     branches:
       - main
 
 jobs:
   render:
-    name: Render MontageFinal
+    name: Render composition
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,7 +24,7 @@ jobs:
 
       - run: npm ci
 
-      - run: npx remotion render MontageFinal out/video.mp4
+      - run: npx remotion render "${{ github.event.inputs.composition || 'MontageFinal' }}" out/video.mp4
 
       - uses: actions/upload-artifact@v4
         with:
